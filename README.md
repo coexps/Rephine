@@ -10,18 +10,21 @@ The RePhine method consists of the following steps:
 5)	Down-weight non-cancer related genes.
 6)	Use likelihood ratio test to evaluate significance (uniP) of the TRs whose targets have concordant positive or negative partial correlations with drug response and apply the elastic net analysis combined with likelihood ratio test (multiP) to select the independent TRs.
 7)	Use a modified GSEA algorithm to further filter the top candidate lists derived from step 6.
-Regulatory potential scores across 1200 ChIP-seq data from Encode that are used in RePhine analysis are available on [google drive](https://drive.google.com/open?id=1wWCKDMSbTBpfuw_s2pYf4RPw7QqjDDIr).
+
 
 ## Prerequisites
 * Python
+* R and packages "glmnet", "MASS", "lmtest", "ppcor", "psych", "ROCR"
 
-## Usage
-First you should download dataset with:
-  ```Bash
-  $wget 
-  ```
+## documents
+RP_calculation_modified.py is the modified python script which calculates the RP scores by consider both distance and peak strength. It takes in peak bed files of ChIP-seq data.
 
-## Results
+permutation_code.R is the simulation R code. it simulate TR and targets expression data, noise data and RP scores.
+
+drug_code_R.R is the RePhine R code. 
+
+## resources
+Regulatory potential scores across 1200 ChIP-seq data from Encode that are used in RePhine analysis are available on [google drive](https://drive.google.com/open?id=1wWCKDMSbTBpfuw_s2pYf4RPw7QqjDDIr).
 
 ## Contact
-_liushiyi1991@hotmail.com_
+_wangxujun87@sjtu.edu.cn_
