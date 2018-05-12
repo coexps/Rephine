@@ -25,7 +25,8 @@ drug_code_R.R is the RePhine R code.
 
 ## Resources
 Regulatory potential scores across 1200 ChIP-seq data from Encode that are used in RePhine analysis are available on [google drive](https://drive.google.com/file/d/1wWCKDMSbTBpfuw_s2pYf4RPw7QqjDDIr/view?usp=sharing).
-CRISPR screening data of PLX4720 results processed by MaGeck are available on [goole drive](https://drive.google.com/file/d/1PVRZ8IrGZojku3GZYOXGag2gG1eXWXN5/view?usp=sharing)
+
+CRISPR screening data of PLX4720 results processed by MaGeck are available on [goole drive](https://drive.google.com/file/d/1PVRZ8IrGZojku3GZYOXGag2gG1eXWXN5/view?usp=sharing).
 
 ## Contact
 _wangxujun87@sjtu.edu.cn_
