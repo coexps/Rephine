@@ -10,3 +10,17 @@ The RePhine method consists of the following steps:
 5)	Down-weight non-cancer related genes.
 6)	Use likelihood ratio test to evaluate significance (uniP) of the TRs whose targets have concordant positive or negative partial correlations with drug response and apply the elastic net analysis combined with likelihood ratio test (multiP) to select the independent TRs.
 7)	Use a modified GSEA algorithm to further filter the top candidate lists derived from step 6.
+
+## Prerequisites
+* Python
+
+## Usage
+First you should download dataset with:
+  ```Bash
+  $wget 
+  ```
+
+## Results
+
+## Contact
+_liushiyi1991@hotmail.com_
