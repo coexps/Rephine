@@ -16,14 +16,14 @@ The RePhine method consists of the following steps:
 * Python
 * R and packages "glmnet", "MASS", "lmtest", "ppcor", "psych", "ROCR"
 
-## documents
+## Documents
 RP_calculation_modified.py is the modified python script which calculates the RP scores by consider both distance and peak strength. It takes in peak bed files of ChIP-seq data.
 
 permutation_code.R is the simulation R code. it simulate TR and targets expression data, noise data and RP scores.
 
 drug_code_R.R is the RePhine R code. 
 
-## resources
+## Resources
 Regulatory potential scores across 1200 ChIP-seq data from Encode that are used in RePhine analysis are available on [google drive](https://drive.google.com/open?id=1wWCKDMSbTBpfuw_s2pYf4RPw7QqjDDIr).
 
 ## Contact
