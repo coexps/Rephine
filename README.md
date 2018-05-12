@@ -3,6 +3,7 @@ Rephine
 RePhine is a method for identification of drug response related transcriptional regulators by modeling correlation patterns of targets. RePhine takes in pharmacogenomics data containing gene expression, copy number, mutation status, cancer type information and pharmacological profiles for estimation of associations between genes expression and drug response. It also takes in ChIP-seq data for target inference.
 
 The RePhine method consists of the following steps:
+<<<<<<< patch-1
 1)	Estimate the adjusted expression for each gene by removing the effects of copy number through linear regression.
 2)	Identify mutated genes related to drug response based on the CCLE mutation data and pharmacology profiles through an adaptive lasso model and likelihood ratio test.
 3)	Compute the partial correlation between a specific gene and a drug by controlling the confounding factors.
@@ -28,4 +29,3 @@ Regulatory potential scores across 1200 ChIP-seq data from Encode that are used 
 
 ## Contact
 _wangxujun87@sjtu.edu.cn_
-
