@@ -200,11 +200,14 @@ stage_all_tmp-> stage_all_partial2
 
 # ChIP-seq data selections from the replicates
 
+
 read.table("CHIP_SEQ/merge.txt",header=T)->merge_score #load RP scores across different ChIP-seq data
 intersect(unlist(merge_score[,2]),rownames(reg_factor))->inter.name_chip
 sort(inter.name_chip)->sort_inter.name_chip
 single_TF_filter=c()
 sort(inter.name_chip)->sort_inter.name_chip
+apply(merge_score[3:(dim(merge_score)[2])],2,function(x) sum(x==0)/length(x))->qc_ratio
+names(which(qc_ratio>0.1))->out_names
 # format transformation: 1)remove the duplicate transcripts, 2) match genes in expression data to those in ChIP-seq data
 for (n in out_names)
 {
