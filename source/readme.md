@@ -1,6 +1,6 @@
 
 ## Resources
-Regulatory potential scores across 1200 ChIP-seq data from Encode that are used in RePhine analysis are only available on [google drive](https://drive.google.com/file/d/1wWCKDMSbTBpfuw_s2pYf4RPw7QqjDDIr/view?usp=sharing).
+Regulatory potential scores across more than 1000 ChIP-seq data from Encode that are used in RePhine analysis are available on [google drive](https://drive.google.com/open?id=1NwzZ5rdhYG-QlG956oFLmJyjyBpLty6A).
 
 CRISPR screening data of PLX4720 results processed by MaGeck are also available on [goole drive](https://drive.google.com/file/d/1PVRZ8IrGZojku3GZYOXGag2gG1eXWXN5/view?usp=sharing) 
 
