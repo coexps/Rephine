@@ -24,7 +24,7 @@ permutation_code.R is the simulation R code. it simulate TR and targets expressi
 drug_code_R.R is the RePhine R code. For more details, please see guide.
 
 ## Resources
-Regulatory potential scores across 1200 ChIP-seq data from Encode that are used in RePhine analysis are available on [google drive](https://drive.google.com/open?id=1xBQNLI4jXQRz0yC1YXy7UUDte4weUSCO).
+Regulatory potential scores across more than 1000 ChIP-seq data from Encode that are used in RePhine analysis are available on [google drive](https://drive.google.com/open?id=1NwzZ5rdhYG-QlG956oFLmJyjyBpLty6A).
 
 CRISPR screening data of PLX4720 results processed by MaGeck are available on [goole drive](https://drive.google.com/file/d/1PVRZ8IrGZojku3GZYOXGag2gG1eXWXN5/view?usp=sharing) as well GitHub.
 
