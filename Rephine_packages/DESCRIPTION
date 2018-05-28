@@ -1,0 +1,13 @@
+Package: Rephine
+Type: Package
+Title: Rephine
+Version: 0.1.0
+Author: James Wang, Shiyi Liu
+Maintainer: James Wang <wangxujun87@sjtu.edu.cn>, Shiyi Liu <liushiyi1991@hotmail.com>
+Description: RePhine is a method for identification of drug response related transcriptional regulators by modeling correlation patterns of targets. RePhine takes in pharmacogenomics data containing gene expression, copy number, mutation status, cancer type information and pharmacological profiles for estimation of associations between genes expression and drug response. It also takes in ChIP-seq data for target inference.
+License: GPL (>=2)
+Depends: R (>= 3.0.0), MASS, lmtest, ppcor, glmnet
+Encoding: UTF-8
+LazyData: true
+NeedsCompilation: no
+Packaged: 2018-05-28 13:52:03 UTC; liush
