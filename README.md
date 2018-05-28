@@ -25,6 +25,9 @@ permutation_code.R is the simulation R code. it simulate TR and targets expressi
 
 drug_code_R.R is the RePhine R code. For more details, please see guide.
 
+## Installation
+You might use R function install.packages() to install the Rephine package. For more details, you might see the user guide. 
+
 ## Resources
 Regulatory potential scores across more than 1000 ChIP-seq data from Encode that are used in RePhine analysis are available on [google drive](https://drive.google.com/open?id=1NwzZ5rdhYG-QlG956oFLmJyjyBpLty6A).
 
