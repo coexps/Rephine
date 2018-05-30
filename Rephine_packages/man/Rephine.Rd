@@ -12,21 +12,21 @@ Raphine(drugs = matrix(0, 0, 0), exp = matrix(0, 0, 0), snv = matrix(0, 0, 0), c
 }
   \arguments{
   \item{drugs}{
-  \code{matrix} of drug activity, cols are drugs, rows are ...
+  \code{matrix} of drug activity, cols are drugs, rows are cell lines
 }
   \item{exp}{
-  \code{matrix} of gene expression though tissues/cell lines
+  \code{matrix} of gene expression, cols are cells and rows are genes
 }
   \item{snv}{
-  \code{matrix} of snv information
+  \code{matrix} of mutation information
 %%     ~~Describe \code{snv} here~~
 }
   \item{cnv}{
-  cnv \code{matrix}
+  cnv \code{matrix} of copy numer information
 }
   \item{tissue}{
   tissue \code{matrix}
-%%     ~~Describe \code{tissue} here~~
+%%     ~~Describe \code{tissue} confounding information like tissues, cancer types or other status that independent of TR regulation (optional)
 }
   \item{cellline}{
   celline \code{vector}
