@@ -25,6 +25,7 @@ permutation_code.R is the simulation R code. it simulate TR and targets expressi
 
 drug_code_R.R is the RePhine R code.
 
+RePhine User Guide.pdf is the user guide telling how to use RePhine to process data and indenty TRs.
 ## Installation
 You might use R function install.packages() to install the Rephine package. For more details, you might see the user guide. 
 
