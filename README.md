@@ -23,7 +23,7 @@ RP_calculation_modified.py is the modified python script which calculates the RP
 
 permutation_code.R is the simulation R code. it simulate TR and targets expression data, noise data and RP scores.
 
-drug_code_R.R is the RePhine R code. For more details, please see guide.
+drug_code_R.R is the RePhine R code.
 
 ## Installation
 You might use R function install.packages() to install the Rephine package. For more details, you might see the user guide. 
