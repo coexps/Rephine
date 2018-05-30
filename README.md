@@ -26,11 +26,12 @@ permutation_code.R is the simulation R code. it simulate TR and targets expressi
 drug_code_R.R is the RePhine R code.
 
 RePhine User Guide.pdf is the user guide telling how to use RePhine to process data and indenty TRs.
+
 ## Installation
 You might use R function install.packages() to install the Rephine package. For more details, you might see the user guide. 
 
 ## Resources
-Regulatory potential scores across more than 1000 ChIP-seq data from Encode that are used in RePhine analysis are available on [google drive](https://drive.google.com/open?id=1NwzZ5rdhYG-QlG956oFLmJyjyBpLty6A).
+Regulatory potential scores across more than 1000 ChIP-seq data from Encode that are used in RePhine analysis are available on [google drive](https://drive.google.com/open?id=1NwzZ5rdhYG-QlG956oFLmJyjyBpLty6A). These data will be update with new TFs soon. 
 
 CRISPR screening data of PLX4720 results processed by MaGeck are available on [google drive](https://drive.google.com/file/d/1PVRZ8IrGZojku3GZYOXGag2gG1eXWXN5/view?usp=sharing) as well GitHub.
 
