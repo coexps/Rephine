@@ -21,7 +21,7 @@ Rephine_0.1.0.tar.gz is the R packages for process Pharmacogenomic data using Re
 
 RP_calculation_modified.py is the modified python script which calculates the RP scores by consider both distance and peak strength. It takes in peak bed files of ChIP-seq data.
 
-permutation_code.R is the simulation R code. it simulate TR and targets expression data, noise data and RP scores.
+simulation_code.R is the simulation R code. it simulate TR and targets expression data, noise data and RP scores.
 
 drug_code_R.R is the RePhine R code.
 
