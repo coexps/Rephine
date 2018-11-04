@@ -1,0 +1,7 @@
+exportPattern("^[^\\.]")
+exportClasses("Rephine")
+
+S3method(snvselector,Rephine)
+S3method(cnvadjust,Rephine)
+S3method(parcol,Rephine)
+export(chipseq)
