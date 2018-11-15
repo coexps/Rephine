@@ -15,7 +15,7 @@ plotEA<-function(chip,drug,col,partial,...)
   rand_min <- c()
   for (i in 1:1000)
   {
-    cum_rand <- .permutation_random(1,partial[sort_inter.name_chip,drug],uniq_value)
+    cum_rand <- cumsum(.permutation_random(1,partial[sort_inter.name_chip,drug],uniq_value))
     rand_max <- c(rand_max,max(cum_rand))
     rand_min <- c(rand_min,min(cum_rand))
   }
@@ -24,8 +24,10 @@ plotEA<-function(chip,drug,col,partial,...)
     sum_max <- summary(rand_max)[i]
     sum_min <- summary(rand_min)[i]
     col_h <- heat.colors((9))
+    cm.colors(9)->col_c
+
     abline(a=as.matrix(sum_max),b=0,col=col_h[i],lty=1,lwd=2)
-    abline(a=as.matrix(sum_min),b=0,col=col_h[i],lty=1,lwd=2)
+    abline(a=as.matrix(sum_min),b=0,col=col_c[i],lty=1,lwd=2)
     abline(a=0,b=0)
   }
 }
