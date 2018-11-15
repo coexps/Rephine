@@ -19,7 +19,7 @@ The RePhine method consists of the following steps:
 * R and packages "glmnet", "MASS", "lmtest", "ppcor", "psych", "ROCR"
 
 ## Documents
-Rephine_0.1.0.tar.gz is the R packages to process Pharmacogenomic data and ChIP-seq data by using RePhine. For details and guides, please see RePhine User Guide.
+Rephine_1.1.0.tar.gz is the R scource code packages to process Pharmacogenomic data and ChIP-seq data by using RePhine. For details and guides, please see RePhine User Guide.
 
 RP_calculation_modified.py is the modified python script which calculates the RP scores by consider both distance and peak strength. It takes in peak bed files of ChIP-seq data.
 
