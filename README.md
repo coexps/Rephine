@@ -1,5 +1,10 @@
 # Rephine
 
+Now RePhine version 1.1.0 is released.
+
+1.1.0) RePhine now supports visualization of enrichment patterns between TRs and drugs of interest (see guide for details(https://github.com/coexps/Rephine/blob/master/RePhine%20User%20Guide.pdf)).
+
+
 RePhine is a method for identification of drug response related transcriptional regulators by modeling correlation patterns of targets. RePhine takes in pharmacogenomics data containing gene expression, copy number, mutation status, cancer type information and pharmacological profiles for estimation of associations between genes expression and drug response. It also takes in ChIP-seq data for target inference.
 
 ![Figure](img/Figure.jpg)
