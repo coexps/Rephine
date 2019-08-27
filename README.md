@@ -44,6 +44,11 @@ Regulatory potential scores across more than 1000 ChIP-seq data from Encode that
 
 CRISPR screening data of PLX4720 results processed by MaGeck are available on [google drive](https://drive.google.com/file/d/1PVRZ8IrGZojku3GZYOXGag2gG1eXWXN5/view?usp=sharing) as well GitHub.
 
+## Application
+RePhine was applied to the Liver cancer cell dataset and identified novel candidates related to drug response.
+
+[A Pharmacogenomic Landscape in Human Liver Cancers.Cancer Cell. 2019 Aug 12;36(2):179-193.e11. doi: 10.1016/j.ccell.2019.07.001. Epub 2019 Aug 1.](https://www.ncbi.nlm.nih.gov/pubmed/31378681)
+
 ## Contact
 _wangxujun87@sjtu.edu.cn_
 
