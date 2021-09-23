@@ -44,6 +44,9 @@ Regulatory potential scores across more than 1000 ChIP-seq data from Encode that
 
 CRISPR screening data of PLX4720 results processed by MaGeck are available on [google drive](https://drive.google.com/file/d/1PVRZ8IrGZojku3GZYOXGag2gG1eXWXN5/view?usp=sharing) as well GitHub.
 
+## Citation
+[RePhine: An Integrative Method for Identification of Drug Response-related Transcriptional Regulators.](https://pubmed.ncbi.nlm.nih.gov/33713851/)
+
 ## Application
 RePhine was applied to the Liver cancer cell dataset and identified novel candidates related to drug response.
 
